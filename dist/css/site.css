@@ -1,0 +1,149 @@
+.content {
+    min-height: 72vh;
+}
+
+.bg-primary, .btn-primary {
+    background-color: #00003b !important;
+}
+
+.btn-primary:hover {
+    background-color: #22272e !important;
+}
+
+.primary-color {
+    color: #00003b;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+h5 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.disclaimer-modal {
+    background-color: #00003b;
+}
+
+.footer {
+    background-color: #00003b;
+    color: white !important;
+}
+
+.copyright-section {
+    margin-top:13px;
+}
+
+.copyright {
+    color: white;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+}
+
+.footer i {
+    color: white;
+    font-size: 10px;
+}
+
+.required {
+    color: orangered;
+}
+
+.breadcrumb {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.breadcrumb-item span, a {
+    font-size: 12px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.breadcrumb-item span {
+    cursor: default;
+}
+
+.breadcrumb-item a {
+    color: #00003b !important;
+    text-decoration: none;
+}
+
+.alert {
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+}
+
+.alert .btn-close {
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+a {
+    color: #00003b;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.docket-table-records tr:hover td {
+    background-color: whitesmoke !important;
+    cursor: pointer;
+}
+
+.docket-details-title {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    background-color: #00003b;
+    margin-top: 15px;
+}
+
+.docket-details-title h5 {
+    color: white;
+    padding-left: 10px;
+    margin: 5px 0 5px 0;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e9ecef;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.bd-callout-info {
+    border-left-color: #00003b !important;
+}
+
+.bd-callout-warning {
+    border-left-color: #fcad03 !important;
+}
+
+@media (max-width: 674px) {
+    .copyright-section {
+        margin-left:12px;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar .container, .footer .container {
+        max-width: 654px;
+    }
+    .container {
+        max-width: 644px;
+    }
+
+    .modal-lg {
+        max-width: 644px;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
