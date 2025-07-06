@@ -2,7 +2,7 @@
 
 This repository contains the source code for the PagodaProbe Web application, the official frontend for the [PagodaProbe API](https://github.com/gabenotgave/PagodaProbeApi). This single-page application (SPA) provides a user-friendly interface for searching and viewing public records data.
 
-The application is built with React and Vite, using TypeScript for type safety and Bootstrap for styling.
+The application is built with React and Vite, using JavaScript and Bootstrap for styling.
 
 ---
 
@@ -41,7 +41,7 @@ This frontend application requires the [PagodaProbe API](https://github.com/gabe
 
 -   **Framework**: React 18
 -   **Build Tool**: Vite
--   **Language**: TypeScript
+-   **Language**: JavaScript (JSX)
 -   **Styling**: Bootstrap
 -   **Routing**: React Router
 -   **State Management**: React Context API
